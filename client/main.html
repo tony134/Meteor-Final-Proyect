@@ -1,0 +1,59 @@
+<head>
+  <meta charset="UTF-8">
+  <title>final</title>
+</head>
+<body ng-app="mapu">
+  
+  
+  <header class="bck1">
+  </header>
+  <div class="">
+    <nav style="background: #1D0031">
+      <div class="nav-wrapper">
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li> <audio controls autoplay loop>
+            <source src="jojo.mp3" type="audio/mpeg">
+          </audio></li>
+          <li><a ui-sref="home" >Home</a></li>
+          <li><a ui-sref="anime">Anime</a></li>
+          <li><a ui-sref="manga">Manga</a></li>
+          <li><a ui-sref="gallery">Gallery</a></li>
+        </ul>
+        <div >
+          <ul class="side-nav pink navbar-fixed" id="mobile-demo">
+            <li><a ui-sref="home">Home</a></li>
+            <li><a ui-sref="parti">Manga</a></li>
+            <li><a ui-sref="manga">Manga</a></li>
+            <li><a ui-sref="gallery">Gallery</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <div ui-view="" style="margin-top: 0; padding:0; margin-bottom: 0; " ></div>
+  <footer class="page-footer" style="background: #1D0031">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Member's</h5>
+          <li>Eduardo Sias</li>
+          <li>Heber Torres</li>
+          <li>Antonio Robles</li>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          
+          <ul>
+            <img src="defeners.jpg" width="450px" height="200px" alt="">
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        © 2014 Copyright Text
+        <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+      </div>
+    </div>
+  </footer>
+</body>

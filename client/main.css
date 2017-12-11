@@ -1,0 +1,108 @@
+body {
+   background-image: url("fondo.jpg");
+   background-repeat:repeat;
+  
+}
+div{
+  
+}
+
+html, body, .block {
+    height: 100%;
+  }
+
+.md-sidenav-left.md-closed-add,
+.md-sidenav-left.md-closed-remove {
+    transition: 0.2s ease-in all;
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/materialicons/v31/2fcrYFNaTjcS6g4U3t-Y5ZjZjT5FdEJ140U2DJYC3mY.woff2) format('woff2'),url(../imports/fonts/2fcrYFNaTjcS6g4U3t-Y5ZjZjT5FdEJ140U2DJYC3mY.woff2) format('woff2');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -moz-font-feature-settings: 'liga';
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bck1
+{
+    background-image: url(bck1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    margin: 0;
+}
+
+.imgSlider {
+    
+ transform: translate(0, 50px);
+
+}
+
+.slider .indicators .indicator-item {
+  background-color: #666666;
+  border: 3px solid #ffffff;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+.slider .indicators .indicator-item.active {
+  background-color: #ffffff;
+}
+.slider {
+  width: auto;
+  height: 400px;
+  margin: 10px auto;
+  
+}
+.slider .indicators {
+  bottom: 60px;
+  z-index: 200;
+  /* text-align: left; */
+}
+
+
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+#textocaja
+{
+  text-align: justify;
+}
+
+#flecha .slider .slides li img {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.slider .slides li img {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: top;
+}
+
+/* The Modal (background) */
